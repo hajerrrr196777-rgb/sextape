@@ -16,7 +16,7 @@ lavalink:
       local: false
 
 plugins:
-  youtube:
+  youtube:  true
     enabled: true
     allowSearch: true
     allowDirectVideoIds: true

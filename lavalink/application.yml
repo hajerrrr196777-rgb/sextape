@@ -13,7 +13,7 @@ lavalink:
       bandcamp: true
       soundcloud: true
       http: true
-      local: false
+      local: true
 
 plugins:
   youtube:  true

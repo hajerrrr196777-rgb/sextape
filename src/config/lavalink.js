@@ -41,7 +41,8 @@ export function getLavalinkNodes() {
 
 export const lavalinkConfig = {
     nodes: getLavalinkNodes(),
-    defaultSearchPlatform: process.env.LAVALINK_SEARCH_PLATFORM || 'ytmsearch',
+    // تم الضبط افتراضياً إلى 'ytsearch' للبحث في YouTube، أو 'ytmsearch' لـ YouTube Music
+    defaultSearchPlatform: process.env.LAVALINK_SEARCH_PLATFORM || 'ytsearch',
     restVersion: process.env.LAVALINK_REST_VERSION || 'v4',
 };
 

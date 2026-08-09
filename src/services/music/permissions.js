@@ -1,4 +1,4 @@
-export const VOICE_CHANNEL_DENIAL = 'يجب أن تكون في نفس الروم الصوتي الموجود فيه البوت.';
+export const VOICE_CHANNEL_DENIAL = .';
 
 export function requireVoiceChannel(member) {
     return member.voice?.channel != null;
